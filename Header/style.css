@@ -1,0 +1,161 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.text-top h1 {
+    font-size: 72px ;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    padding-right: 40px;
+    line-height: 80px;
+    color: white;
+}
+
+.top-wrapper {
+    padding:180px 0px 350px 0px ;
+    background-image: url(/Header/Asset/Laning\ Page\ 1.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.card-text h4 {
+    padding: 10px;
+
+}
+
+.card-wrapper {
+    padding-bottom: 300px;
+    background: rgb(255, 255, 255);
+    
+}
+
+.btn-me {
+    background: rgb(114, 114, 114);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.btn-me:hover {
+    background:rgb(65, 65, 65) ;
+}
+
+.main-wrapper {
+    padding: 40px;
+    margin-bottom: 500px;
+}
+
+.why-us {
+    font-size: 96px ;
+}
+
+.main-left p {
+    font-size:20px ;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.main-left {
+    width: 50%;
+    float: left;
+}
+
+.main-right {
+    width: 50%;
+    float: right;
+}
+
+.btn-us {
+    background: rgb(114, 114, 114);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.btn-us:hover {
+    background:rgb(65, 65, 65) ;
+}
+
+.footer-container {
+    margin: auto;
+}
+
+.footer-container h4 {
+    padding: 10px ;
+}
+
+.footer-copyright {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #101419;
+    padding: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+    text-align: left;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0px 15px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
